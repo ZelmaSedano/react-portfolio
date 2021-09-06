@@ -146,7 +146,7 @@ button {
 }
 
 /* mobile menu? */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 812px) {
   .navbar {
     display: flex;
     height: 80px;
@@ -164,7 +164,7 @@ button {
 }
 
 /* NOTE: Button doesn't show up on Mobile */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 812px) {
   .navbar-logo {
     display: flex;
     /* floats logo to left */

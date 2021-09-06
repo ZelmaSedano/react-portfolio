@@ -40,7 +40,7 @@ img {
   -moz-border-radius: 500px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 812px) {
   .hero {
     height: 67vh;
   }

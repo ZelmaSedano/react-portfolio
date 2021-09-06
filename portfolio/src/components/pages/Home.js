@@ -4,12 +4,14 @@ import '../../App.css';
 // components
 import Navbar from '../Navbar';
 import Hero from '../Hero';
+import Work from '../Work';
 
 function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Work />
     </>
   );
 }
