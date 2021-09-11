@@ -1,42 +1,35 @@
-/* Grid styles -------------------------------------------------*/
-
-.work {
-  max-width: 1500px;
-  margin: 0 auto;
-  /* centers cards */
-  text-align: center;
+.work-img {
+  border-radius: 5px;
+  max-height: 300px;
 }
 
 .work-text {
-  margin-top: 15px;
+  margin: 40px;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 100;
   font-size: 30px;
   color: #696969;
 }
 
-.cards {
-  margin: 15px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
+/* PARENT: surrounds all cards & wrapper */
+.work-container {
+  display: flex;
+  /* info will be up & down */
+  flex-flow: column;
+  /* everything will be aligned to center */
+  align-items: center;
+  /* center inside external space */
+  margin: 0 auto;
+  /* so they don't end up too wide */
+  max-width: 1220px;
+  width: 90%;
 }
 
-article {
-  position: relative;
+@media screen and (max-width: 1026px) {
 }
 
-.article-img {
-  height: 400px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.article-title {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
+@media screen and (max-width: 790px) {
+  .work-top {
+    text-align: center;
+  }
 }
