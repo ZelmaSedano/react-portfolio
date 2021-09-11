@@ -39,7 +39,7 @@ function Work() {
             target='_blank'
             rel='noreferrer'
           >
-            <img className='work-img' src={Elysian} alt='weather-app' />
+            <img className='work-img' src={Chicago} alt='weather-app' />
           </a>
           {/* image/link 4 */}
           <a
