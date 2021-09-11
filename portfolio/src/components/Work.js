@@ -2,7 +2,7 @@ import React from 'react';
 import './Work.css';
 
 // images - dimensions = 2279 x 1298
-import Elysian from './images/Elysian.png';
+
 import Weather from './images/weather.png';
 import Chicago from './images/chicago.png';
 
