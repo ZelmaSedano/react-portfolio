@@ -23,7 +23,7 @@ function Work() {
           </a>
           {/* image/link 2 */}
           <a
-            href='https://github.com/ZelmaSedano/Chicago_Tenants_Rights'
+            href='https://chicago-tenants-rights.herokuapp.com/'
             alt='chicago'
             target='_blank'
             rel='noreferrer'
