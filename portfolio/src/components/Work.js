@@ -31,8 +31,8 @@ function Work() {
             <img className='work-img' src={Chicago} alt='weather-app' />
           </a>
         </div>
-        <div className='work-bottom'>
-          {/* image/link 3 */}
+        {/* <div className='work-bottom'>
+
           <a
             href='http://www.elysianrage.com'
             alt='weather'
@@ -41,16 +41,17 @@ function Work() {
           >
             <img className='work-img' src={Chicago} alt='weather-app' />
           </a>
-          {/* image/link 4 */}
+
           <a
             href='https://zelmasedano.github.io/React-Game-Hosted/'
             alt='tixtac'
             target='_blank'
             rel='noreferrer'
-          >
+          > 
             <img className='work-img' src={Weather} alt='weather-app' />
           </a>
         </div>
+        */}
       </div>
     </div>
   );
