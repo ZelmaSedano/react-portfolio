@@ -209,10 +209,9 @@ button {
     display: flex;
     /* up & down */
     flex-direction: column;
-    grid-gap: 10px;
+    grid-gap: 25px;
     position: absolute;
     width: 100%;
-    margin-top: 10px;
     height: 64vh;
     /* height of header */
     top: 65px;
@@ -237,7 +236,7 @@ button {
     display: table;
     text-align: center;
     padding: 2rem;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
     font-size: 21px;
   }
