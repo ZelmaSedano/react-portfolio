@@ -5,6 +5,8 @@ import './Work.css';
 
 import Weather from './images/weather.png';
 import Chicago from './images/chicago.png';
+import Ladies from './images/ladies.png';
+import Elysian from './images/elysian.png';
 
 function Work() {
   return (
@@ -28,30 +30,29 @@ function Work() {
             target='_blank'
             rel='noreferrer'
           >
-            <img className='work-img' src={Chicago} alt='weather-app' />
+            <img className='work-img' src={Chicago} alt='chicago-app' />
           </a>
         </div>
-        {/* <div className='work-bottom'>
-
+        {/* bottom work section */}
+        <div className='work-bottom'>
           <a
-            href='http://www.elysianrage.com'
-            alt='weather'
+            href='https://github.com/ZelmaSedano/1_Assignments/tree/main/11_quiz'
+            alt='ladies'
             target='_blank'
             rel='noreferrer'
           >
-            <img className='work-img' src={Chicago} alt='weather-app' />
+            <img className='work-img' src={Ladies} alt='quiz-app' />
           </a>
 
           <a
-            href='https://zelmasedano.github.io/React-Game-Hosted/'
-            alt='tixtac'
+            href='http://www.elysianrage.com'
+            alt='elysian_rage_art'
             target='_blank'
             rel='noreferrer'
-          > 
-            <img className='work-img' src={Weather} alt='weather-app' />
+          >
+            <img className='work-img' src={Elysian} alt='elysian-rage-art' />
           </a>
         </div>
-        */}
       </div>
     </div>
   );

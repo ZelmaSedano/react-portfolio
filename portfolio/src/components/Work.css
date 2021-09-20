@@ -25,11 +25,20 @@
   width: 90%;
 }
 
-@media screen and (max-width: 1026px) {
-}
-
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 1140px) {
+  .work-img {
+    max-height: 250px;
+  }
   .work-top {
     text-align: center;
+  }
+  .work-bottom {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .work-img {
+    max-height: 220px;
   }
 }
