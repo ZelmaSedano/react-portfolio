@@ -5,8 +5,9 @@ import './Work.css';
 
 import Weather from './images/weather.png';
 import Chicago from './images/chicago.png';
-import Ladies from './images/ladies.png';
+
 import Elysian from './images/elysian.png';
+import Wildlife from './images/wildlife.png';
 
 function Work() {
   return (
@@ -36,12 +37,12 @@ function Work() {
         {/* bottom work section */}
         <div className='work-bottom'>
           <a
-            href='https://github.com/ZelmaSedano/1_Assignments/tree/main/11_quiz'
+            href='https://github.com/ZelmaSedano/13_animals'
             alt='ladies'
             target='_blank'
             rel='noreferrer'
           >
-            <img className='work-img' src={Ladies} alt='quiz-app' />
+            <img className='work-img' src={Wildlife} alt='quiz-app' />
           </a>
 
           <a
