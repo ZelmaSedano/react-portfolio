@@ -1,0 +1,54 @@
+.about-container {
+  /* centering magic */
+  display: flex;
+  margin-left: 15px;
+  justify-content: center;
+  
+}
+.about-div {
+  display: inline;
+  margin: 20px 0 30px 50px;
+  max-width: 700px;
+  padding: 50px 90px;
+  max-width: 1220px;
+}
+@media only screen and (max-width: 768px) {
+  .about-div {
+    margin: 20px 0 30px 10px;
+  }
+}
+
+.about-h3,
+.about-p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+}
+.about-h3{
+  font-size: 22px;
+  margin: 20px 0;
+  color: #696969;
+}
+.about-p {
+  font-size: 16px;
+  margin: 15px 0;
+  color: #696969;
+}
+
+.say-hi {
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: 30px;
+  color: #696969;
+}
+
+
+.about-div .fa-linkedin-in,
+.about-div .fa-github,
+.about-div .fa-twitter {
+  color: #ff9065;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.social-icons {
+  margin: 15px 0 0 0;
+}

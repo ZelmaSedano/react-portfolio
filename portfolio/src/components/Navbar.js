@@ -92,20 +92,22 @@ function Navbar() {
 
             {/* Mobile SignUp Btn - Only shows up on Mobile */}
             <li className='mobile-link'>
-              <Link1
-                to='/sign-up'
+              <a
+                href="mailto:zvsedano@gmail.com"
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link1>
+              </a>
             </li>
           </ul>
 
           {/* END Nav Menu */}
 
           <div className='nav-btn'>
-            <button className='btn'>Contact</button>
+            <a href='mailto:zvsedano@gmail.com'>
+              <button className='btn'>Contact</button>
+            </a>
           </div>
         </div>
       </nav>
