@@ -126,10 +126,7 @@
 .nav-btn {
   margin-top: 13px;
 }
-.nav-btn:hover{
-  background-color:#fff;
-  color:#ff9065;
-}
+
 button {
   /* styling */
   width: 90px;
@@ -143,6 +140,11 @@ button {
   /* positioning */
   margin-left: -15px;
   padding: 5px 3px;
+}
+button:hover {
+  background: white;
+  color: #ff9065;
+  transition: all 0.5s ease;
 }
 
 .smooth-scroll {
