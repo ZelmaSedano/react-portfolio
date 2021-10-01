@@ -7,7 +7,7 @@ import Weather from './images/weather.png';
 import Chicago from './images/chicago.png';
 
 import Elysian from './images/elysian.png';
-import Wildlife from './images/wildlife.png';
+import Travel from './images/travel.png';
 
 function Work() {
   return (
@@ -42,7 +42,7 @@ function Work() {
             target='_blank'
             rel='noreferrer'
           >
-            <img className='work-img' src={Wildlife} alt='quiz-app' />
+            <img className='work-img' src={Travel} alt='travel-app' />
           </a>
 
           <a
