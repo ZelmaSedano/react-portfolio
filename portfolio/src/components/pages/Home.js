@@ -6,6 +6,7 @@ import Navbar from '../Navbar';
 import Hero from '../Hero';
 import Work from '../Work';
 import About from '../About';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Hero />
       <Work />
       <About />
+      <Footer />
     </>
   );
 }
