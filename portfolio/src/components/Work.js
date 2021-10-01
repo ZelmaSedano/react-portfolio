@@ -37,8 +37,8 @@ function Work() {
         {/* bottom work section */}
         <div className='work-bottom'>
           <a
-            href='https://github.com/ZelmaSedano/13_animals'
-            alt='ladies'
+            href='https://mexissippi.herokuapp.com/'
+            alt='mexissippi_travel_blog'
             target='_blank'
             rel='noreferrer'
           >

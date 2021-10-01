@@ -17,9 +17,9 @@ function About() {
         <p class='say-hi'>Say hi on Social Media!</p>
 
         <div class='social-icons'>
-          <a href='www.linkedin.com/in/zelma-sedano-hagberg' alt="Zelma's LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a href='https://github.com/ZelmaSedano' alt="Zelma's GitHub"><i class="fab fa-github" target="_blank"></i></a>
-          <a href='https://twitter.com/TSockk' alt="Zelma's Instagram"><i class="fab fa-twitter" target="_blank"></i></a>
+          <a href='http://www.linkedin.com/in/zelma-sedano-hagberg' alt="Zelma's LinkedIn" target="_blank" rel='noreferrer'><i class="fab fa-linkedin-in"></i></a>
+          <a href='http://github.com/ZelmaSedano' alt="Zelma's GitHub" target="_blank" rel='noreferrer'><i class="fab fa-github" ></i></a>
+          <a href='http://twitter.com/TSockk' alt="Zelma's Instagram" target="_blank" rel='noreferrer'><i class="fab fa-twitter"></i></a>
         </div>
       </div>
 
