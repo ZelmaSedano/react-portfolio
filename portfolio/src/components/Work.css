@@ -7,7 +7,7 @@
   margin: 30px;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 100;
-  font-size: 30px;
+  font-size: 28px;
   color: #696969;
 }
 
@@ -39,6 +39,18 @@
 
 @media screen and (max-width: 950px) {
   .work-img {
-    max-height: 220px;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .work-img {
+    max-height: 250px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .work-img {
+    max-height: 200px;
   }
 }

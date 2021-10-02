@@ -13,7 +13,7 @@ function Work() {
   return (
     <div className='work' id='section1'>
       <div className='work-container'>
-        <h3 className='work-text'>Work.</h3>
+        <h3 className='work-text'>My Work.</h3>
         <div className='work-top'>
           {/* image/link 1 */}
           <a

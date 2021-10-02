@@ -9,7 +9,7 @@
   display: inline;
   margin: 20px 0 30px 50px;
   max-width: 700px;
-  padding: 50px 90px;
+  padding: 10px 90px 50px 90px;
   max-width: 1220px;
 }
 @media only screen and (max-width: 768px) {
@@ -19,16 +19,22 @@
 }
 
 .about-h3,
-.about-p {
+.about-p, 
+.about-p-small {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 100;
 }
 .about-h3{
-  font-size: 22px;
+  font-size: 25px;
   margin: 20px 0;
   color: #696969;
 }
 .about-p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #696969;
+}
+.about-p-small {
   font-size: 16px;
   margin: 15px 0;
   color: #696969;
@@ -53,17 +59,25 @@
   margin: 15px 0 0 0;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 950px) {
   .about-div {
     display: inline;
-    margin: 20px 0 30px 50px;
+    margin: 30px 0 30px 100px;
     max-width: 500px;
     max-width: 1220px;
   }
-
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
+  .about-div {
+    display: inline;
+    margin: 30px 0 30px 0px;
+    max-width: 500px;
+    max-width: 1220px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .about-div {
     display: inline;
     margin: 20px 0 30px 0px;
