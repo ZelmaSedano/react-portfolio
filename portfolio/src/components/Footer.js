@@ -5,7 +5,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className='footer-wrapper'>
-      <p className='footer-p'>See you soon!</p>
+      <p className='footer-p'>Come on back, you hear?</p>
     </div>
   )
 }
