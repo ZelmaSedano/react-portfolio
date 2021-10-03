@@ -230,10 +230,10 @@ button:hover {
     display: flex;
     /* up & down */
     flex-direction: column;
-    grid-gap: 25px;
+    grid-gap: 15px;
     position: absolute;
     width: 100%;
-    height: 55vh;
+    height: 60vh;
     /* height of header */
     top: 65px;
     /* hides automatically 'til it slides out */
