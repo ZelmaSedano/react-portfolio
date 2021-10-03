@@ -176,6 +176,14 @@ button:hover {
 
 /* NOTE: Button doesn't show up on Mobile */
 @media screen and (max-width: 812px) {
+  .logo-text {
+    font-size: 2.2rem;
+    margin-top: 10px;
+    font-weight: 100;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+  }
+
   .navbar-logo {
     display: flex;
     /* floats logo to left */
@@ -207,6 +215,8 @@ button:hover {
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    margin-right: 13px;
+    margin-top: 3px;
   }
 
   /* CHILD: <i> that holds X */
@@ -223,7 +233,7 @@ button:hover {
     grid-gap: 25px;
     position: absolute;
     width: 100%;
-    height: 64vh;
+    height: 55vh;
     /* height of header */
     top: 65px;
     /* hides automatically 'til it slides out */
@@ -301,10 +311,6 @@ button:hover {
   }
   .nav-links-mobile {
     width: 45%;
-  }
-
-  .navbar-container {
-    margin-right: 130px;
   }
 }
 
