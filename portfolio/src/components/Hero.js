@@ -8,7 +8,7 @@ function Hero() {
       <div className='hero-flex'>
         <img src={me} alt='me'></img>
         <div className='hero-text'>
-          <p>Hi, I'm Zelma Valentia.</p>
+          <p>Hi, I'm Zelma Sedano.</p>
           <p>Let's work together!</p>
         </div>
       </div>
