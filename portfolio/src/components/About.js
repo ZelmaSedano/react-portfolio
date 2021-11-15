@@ -12,7 +12,7 @@ function About() {
 
         <p className='about-p-small'>Chicago via Norway via Mississippi. I am a Southern LatinX who looks for beauty in all things, the wonder in every story, and the next big idea.</p>
 
-        <p className='about-p-small'>I believe my background in Psychology is what makes me an impactful designer, and my experience in Finance makes me an efficient developer.</p>
+        <p className='about-p-small'>I believe my background in Psychology is what makes me an impactful designer while my work in Administration makes me an efficient developer.</p>
 
         <p class='say-hi'>Say hi on Social Media!</p>
 
