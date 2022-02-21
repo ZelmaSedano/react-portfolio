@@ -25,12 +25,12 @@ function Work() {
             <img className='work-img' src={InterMention} alt='travel-app' />
           </a>
           <a
-            href='http://www.elysianrage.com'
-            alt='elysian_rage_art'
+            href='https://chicago-tenants-rights.herokuapp.com/'
+            alt='chicago'
             target='_blank'
             rel='noreferrer'
           >
-            <img className='work-img' src={Elysian} alt='elysian-rage-art' />
+            <img className='work-img' src={Chicago} alt='chicago-app' />
           </a>
           {/* image/link 2 */}
         </div>
@@ -44,7 +44,14 @@ function Work() {
           >
             <img className='work-img' src={Weather} alt='weather-app' />
           </a>
-
+          <a
+            href='http://www.elysianrage.com'
+            alt='elysian_rage_art'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img className='work-img' src={Elysian} alt='elysian-rage-art' />
+          </a>
           
           <a
             href='https://chicago-tenants-rights.herokuapp.com/'
