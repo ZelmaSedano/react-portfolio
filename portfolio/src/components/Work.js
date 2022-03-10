@@ -24,6 +24,7 @@ function Work() {
           >
             <img className='work-img' src={InterMention} alt='travel-app' />
           </a>
+          {/* image/link 2 */}
           <a
             href='https://chicago-tenants-rights.herokuapp.com/'
             alt='chicago'
@@ -32,18 +33,21 @@ function Work() {
           >
             <img className='work-img' src={Chicago} alt='chicago-app' />
           </a>
-          {/* image/link 2 */}
         </div>
+
         {/* bottom work section */}
         <div className='work-bottom'>
-        <a
-            href='https://weather-app-zelma.netlify.app/'
-            alt='weather'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <img className='work-img' src={Weather} alt='weather-app' />
-          </a>
+
+          <a
+              href='https://weather-app-zelma.netlify.app/'
+              alt='weather'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img className='work-img' src={Weather} alt='weather-app' />
+            </a>
+
+
           <a
             href='http://www.elysianrage.com'
             alt='elysian_rage_art'
@@ -51,15 +55,6 @@ function Work() {
             rel='noreferrer'
           >
             <img className='work-img' src={Elysian} alt='elysian-rage-art' />
-          </a>
-          
-          <a
-            href='https://chicago-tenants-rights.herokuapp.com/'
-            alt='chicago'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <img className='work-img' src={Chicago} alt='chicago-app' />
           </a>
         </div>
       </div>

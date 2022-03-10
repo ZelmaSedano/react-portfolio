@@ -25,6 +25,7 @@
   width: 90%;
 }
 
+
 @media screen and (max-width: 1140px) {
   .work-img {
     max-height: 250px;
